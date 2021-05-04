@@ -87,3 +87,7 @@ COUNT(*) AS employees
 FROM employees
 GROUP BY last_name
 ORDER BY employees DESC
+
+--Epilogue
+SELECT * FROM employees 
+WHERE emp_no = 499942
